@@ -1,5 +1,6 @@
 robotframework==5.0.1
 robotframework-seleniumlibrary==5.1.3
+robotframework-metrics==3.3.3
 
 
 #pip install -U -r requirements.txt

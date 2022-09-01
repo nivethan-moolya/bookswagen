@@ -6,10 +6,12 @@ Suite Setup  User launches browser
 Suite Teardown  User terminates browser
 
 #Robot -d results -i sanity Tests
+#robotmetrics
+#robotmetrics -I ./Results/
 
 ***Test Cases***
 User should be able to Land on Bookswagon details Page
-    [Tags]  sanity
+    [Tags]  sanity 
     Given As a customer I login to bookswagon website  ${url}
     And verify user successfully landed on the home page
     When I navigate to Book > Technology & Engineering category
