@@ -15,4 +15,4 @@ ${passWord} =  September@15
 ${dashboard} =  My Account
 ${category_name} =  Technology & Engineering
 ${book_name} =  User Friendly
-${author_name} =  Cliff Kuang
+${author_name} =  Pan MacMillan

@@ -12,7 +12,7 @@ Suite Teardown  User terminates browser
 
 ***Test Cases***
 User should be able to Land on Bookswagon details Page
-    [Tags]  sanity 
+    [Tags]  sanity
     Given As a customer I login to bookswagon website  ${url}
     And verify user successfully landed on the home page
     When I navigate to Book > Technology & Engineering category
@@ -100,4 +100,4 @@ ${passWord} =  September@15
 ${dashboard} =  My Account
 ${category_name} =  Technology & Engineering
 ${book_name} =  User Friendly
-${author_name} =  Cliff Kuang
+${author_name} =  Pan MacMillan

@@ -11,7 +11,7 @@ Suite Teardown  User terminates browser
 
 ***Test Cases***
 User should be able to Land on Bookswagon details Page
-    [Tags]  sanity 
+    [Tags]  regression 
     Given As a customer I login to bookswagon website  ${url}
     And verify user successfully landed on the home page
     When I navigate to Book > Technology & Engineering category
